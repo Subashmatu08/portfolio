@@ -15,15 +15,15 @@ import { ref, onMounted, onUnmounted } from 'vue';
 export default {
   setup() {
     const imageSources = ref([
-      'public/covidinfo.webp',
-      'public/careerpath.webp',
-      'public/gsbb.webp',
-      'public/lms.webp',
-      'public/stageVR.webp',
-      'public/verser.webp',
-      'public/tldr.webp',
-      'public/vision.webp',
-      'public/thyroidML.webp',
+      '/public/covidinfo.webp',
+      '/public/careerpath.webp',
+      '/public/gsbb.webp',
+      '/public/lms.webp',
+      '/public/stageVR.webp',
+      '/public/verser.webp',
+      '/public/tldr.webp',
+      '/public/vision.webp',
+      '/public/thyroidML.webp',
     ]);
     const gallery = ref(null);
 
