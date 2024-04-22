@@ -18,8 +18,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 20px;
-  background-color: white;
-  border: 1px solid #ccc;
+  background-color: rgb(121, 134, 113);
+  color: white;
   z-index: 1000;
+  height: 100vh;
+  width: 100vw;
 }
 </style>
