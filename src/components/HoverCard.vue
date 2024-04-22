@@ -64,7 +64,7 @@
 }
 
 .big-card:nth-child(8) {
-  background-image: url('verser.webp');
+  background-image: url('/public/verser.webp');
   transform: translate(10%, 3%) rotate(5deg);
 }
 
@@ -85,19 +85,19 @@
 }
 
 .little-card:nth-child(1) {
-  background-image: url('public/gsbb.webp');
+  background-image: url('/public/gsbb.webp');
 }
 
 .little-card:nth-child(3) {
-  background-image: url('public/stageVR.webp');
+  background-image: url('/public/stageVR.webp');
 }
 
 .little-card:nth-child(5) {
-  background-image: url('public/tldr.webp');
+  background-image: url('/public/tldr.webp');
 }
 
 .little-card:nth-child(7) {
-  background-image: url('public/vision.webp');
+  background-image: url('/public/vision.webp');
 }
 
 .card-group:hover > .card {
