@@ -128,7 +128,7 @@ export default {
   font-weight: 900;
 }
 #background {
-  background-image: url('./bg2.svg');
+  background-image: url('public/bg2.svg');
   background-repeat: repeat;
   animation: moveBackground 20s ease-in-out infinite;
 }

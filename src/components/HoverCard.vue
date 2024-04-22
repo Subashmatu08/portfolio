@@ -85,19 +85,19 @@
 }
 
 .little-card:nth-child(1) {
-  background-image: url('gsbb.webp');
+  background-image: url('public/gsbb.webp');
 }
 
 .little-card:nth-child(3) {
-  background-image: url('stageVR.webp');
+  background-image: url('public/stageVR.webp');
 }
 
 .little-card:nth-child(5) {
-  background-image: url('tldr.webp');
+  background-image: url('public/tldr.webp');
 }
 
 .little-card:nth-child(7) {
-  background-image: url('vision.webp');
+  background-image: url('public/vision.webp');
 }
 
 .card-group:hover > .card {
