@@ -5,7 +5,6 @@
       <br />
       The mobile version is coming sooooooooooooon.....
     </p>
-    <button @click="close">Close</button>
   </div>
 </template>
 
@@ -13,7 +12,11 @@
 
 <style scoped>
 .mobile-warning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
+  font-size: 1.2rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -21,7 +24,7 @@
   background-color: rgb(121, 134, 113);
   color: white;
   z-index: 1000;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 </style>
