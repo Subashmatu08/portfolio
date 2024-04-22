@@ -8,7 +8,29 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import { onMounted, onUnmounted } from 'vue';
+
+export default {
+  setup() {
+    const preventScroll = (event) => {
+      event.preventDefault();
+    };
+
+    onMounted(() => {
+      window.addEventListener('wheel', preventScroll, { passive: false });
+      window.addEventListener('touchmove', preventScroll, { passive: false });
+    });
+
+    onUnmounted(() => {
+      window.removeEventListener('wheel', preventScroll);
+      window.removeEventListener('touchmove', preventScroll);
+    });
+
+    return {};
+  },
+};
+</script>
 
 <style scoped>
 .mobile-warning {
@@ -26,5 +48,6 @@
   z-index: 1000;
   height: 100%;
   width: 100%;
+  text-align: center;
 }
 </style>
